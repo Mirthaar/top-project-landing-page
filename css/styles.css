@@ -9,6 +9,8 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 1.5em;
+    background-color: #003d46;
+    color: white;
 }
 
 .container {
@@ -41,12 +43,14 @@ nav .logo {
 
 .nav-links .link {
     padding-left: 8px;
+    margin-left: auto;
 }
 
 .nav-links a {
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
+    letter-spacing: 2px;;
 }
 
 /* Header */
@@ -58,12 +62,11 @@ nav .logo {
     flex-direction: row-reverse;
     background-color: #003d46;
     color: white;
-    padding: 8px 32px;
+    padding: 8px 0px;
 }
 
 div .hero {
     max-width: 500px;
-
     margin: 20px;
 }
 
@@ -73,7 +76,7 @@ div .header-text{
     justify-content: center;
     align-items: flex-start;
     padding: 16px;
-    margin: 8px 0px;
+    margin: 8px 16px;
 }
 
 div .header-image {
@@ -81,23 +84,25 @@ div .header-image {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 8px;
 }
 
 .header h1 {
     margin: 0;
     margin-bottom: 8px;
     line-height: 1.2em;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
 
 .header p {
     margin: 0;
+    font-weight: 300;
 }
 
 .header-text button {
     padding: 8px 32px;
     margin: 16px 0;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     color: #003d46;
