@@ -120,6 +120,17 @@ div .header-image {
     justify-content: center;
 }
 
+.section-one h2 {
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 1px;
+
+}
+
+div.section-title {
+    margin-bottom: 12px;
+}
+
 .section-one p {
     font-size: 12px;
     text-align: center;
@@ -159,6 +170,7 @@ img.placeholder {
     padding: 8px;
     /* margin: 0px auto; */
     flex: 1;
+    align-items: center;
 }
 
 
