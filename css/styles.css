@@ -24,6 +24,7 @@ body {
 
 .header {
     display: flex;
+    justify-content: center;
 }
 /* Navbar */
 
@@ -63,6 +64,7 @@ nav .logo {
     background-color: #003d46;
     color: white;
     padding: 8px 0px;
+    margin-bottom: 16px;
 }
 
 div .hero {
